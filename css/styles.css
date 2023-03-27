@@ -50,15 +50,14 @@ body {
     color: #2E2F42;
 }
 
-/*a [href="./index.html"] {
-    color:#2E2F42;
-}*/
-
-a [href="./index.html"]: is (:hover, :focus) {
-    color: #4D5AE5;*/
+.header-list a {
+    color: #2E2F42;
+}
+.header-list a:hover, .header-list:focus {
+    color: #4D5AE5;
 }
 
-.address-list {
+.address-list a {
     font-family: inherit;
     font-style: normal;
     line-height: 1.5;
@@ -66,7 +65,7 @@ a [href="./index.html"]: is (:hover, :focus) {
     color: #434455;
 }
 
-.address-list: is (:hover, :focus) {
+.address-list a:hover, .address-list:focus {
     color: #4D5AE5;
 }
 
@@ -277,29 +276,14 @@ a [href="./index.html"]: is (:hover, :focus) {
    color: var(--accent-color);
 }
 
-.header-mailto {
-    
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.nav-list a {
+    color:#2E2F42;
 }
 
-.header-mailto: is (:hover, :focus) {
+.nav-list a:hover, .nav-list a:focus {
     color: #4D5AE5;
 }
 
-.header-tel {
-    
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.header-tel: is (:hover, :focus) {
-    color: #4D5AE5;
-}
 /*-----------------buttons------------*/ 
 
 .btn-nav {
@@ -327,17 +311,14 @@ a [href="./index.html"]: is (:hover, :focus) {
     color: #FFFFFF;
     background-color: #404BBF;
     display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 12px 24px;
-    
-        width: 69px;
-        height: 48px;
-    
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;
     cursor: pointer;
 
 }
-
 
 .web-btn {
     font-weight: 500;
