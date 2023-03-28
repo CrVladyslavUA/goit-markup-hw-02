@@ -324,7 +324,7 @@ portfolio-body {
 }
 
 [hidden] {
-    display: none;
+    display: visible;
 }
 /*-----------------buttons------------*/ 
 
