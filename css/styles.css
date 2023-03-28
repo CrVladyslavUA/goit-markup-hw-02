@@ -5,6 +5,7 @@
    --first-btn-color: #FFFFFF;
    --second-btn-color: #4D5AE5;
    --background-color: #FFFFFF;
+   --btn-backgroud-color: #F4F4FD;
 }
 
 body {
@@ -70,7 +71,7 @@ font-style: normal;
 }
 
 .address-list a:hover, .address-list:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 
 /*------------Hero----------*/
@@ -266,8 +267,10 @@ font-style: normal;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--third-text-color);
+}
+
+.link {
     text-decoration: none;
-    list-style: none;
 }
 
 .footer-logo-text {
@@ -307,14 +310,22 @@ portfolio-body {
     var(--color);
 }
 
+
 .nav-list a {
     color:#2E2F42;
 }
 
 .nav-list a:hover, .nav-list a:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 
+.address-list a:hover, .address-list a:focus {
+    color: #404BBF;
+}
+
+[hidden] {
+    display: none;
+}
 /*-----------------buttons------------*/ 
 
 .btn-nav {
@@ -332,15 +343,17 @@ portfolio-body {
 }
 
 .all-btn {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 2px 1px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--second-btn-color);
+    background-color: var(--btn-backgroud-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 2px 1px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -348,8 +361,13 @@ portfolio-body {
     width: 69px;
     height: 48px;
     cursor: pointer;
-
 }
+
+.all-btn:hover, .all-btn:focus {
+    color:#FFFFFF;
+    background-color: #404BBF;
+}
+
 
 .web-btn {
     font-weight: 500;
@@ -420,7 +438,7 @@ portfolio-body {
     cursor: pointer;
     }
 
-
+/*----------portfolio cards----------*/
 .banking-app-head {
     font-weight: 500;   
     font-size: 20px; 
