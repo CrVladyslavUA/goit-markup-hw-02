@@ -1,12 +1,16 @@
 :root {
    --color: #2E2F42;
-   --second-color: #434455;
-   --accent-color: #3a45b7;
+   --second-text-color: #434455;
+   --third-text-color: #4D5AE5;
    --first-btn-color: #FFFFFF;
    --second-btn-color: #4D5AE5;
+   --background-color: #FFFFFF;
 }
+
 body {
-    font-family: 'roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: var(--second-text-color);
+    background-color: var(--background-color);
 }
 
 .link {
@@ -17,8 +21,6 @@ body {
     list-style: none;
 }
 
-
-
 /*-----------Header-------------*/
 
 .header {
@@ -26,22 +28,21 @@ body {
 }
 
 .header-logo {
-    font-family: 'raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#2E2F42;
+    color: var(--third-text-color);
     text-decoration: none;
 }
 
-.accent {
-     var (--accent-color);
+.logo-text {
+   color: var(--color);
 }
 
-    
 .header-link {
     font-weight: 500;
     line-height: 1.5;
@@ -53,10 +54,13 @@ body {
 .header-list a {
     color: #2E2F42;
 }
-.header-list a:hover, .header-list:focus {
-    color: #4D5AE5;
+.header-list a:hover, .header-list a:focus {
+    color: #404BBF;
 }
 
+.address {
+font-style: normal;
+}
 .address-list a {
     font-family: inherit;
     font-style: normal;
@@ -80,11 +84,12 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #ffffff;
 }
 
 .hero-btn {
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -96,13 +101,17 @@ body {
     cursor: pointer;
 }
 
-.hero-btn: is (:hover, :focus, :active) {
-    background-color: #4D5AE5;
+.hero-btn :hover, .hero-btn:focus {
+    background-color: #404BBF;
 }
 /*-------------Main----------------*/
 
+.credo-title {
+
+}
+
+
 .credo-list-strategy {
-    
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -113,7 +122,7 @@ body {
 .credo-list-strategy-desription {
        line-height: 1.5;
        letter-spacing: 0.02em;
-       color: var(--second-color);
+       color: var(--second-text-color);
 }
 
 .credo-list-punctuality {
@@ -127,7 +136,7 @@ body {
 .credo-list-punctuality-description {
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--second-color);
+        color: var(--second-text-color);
 }
 
 .credo-list-diligence {
@@ -141,7 +150,7 @@ body {
 .credo-list-diligence-description {
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--second-color);
+        color: var(--second-text-color);
     }
 
 .credo-list-technologies {
@@ -155,13 +164,14 @@ body {
 .credo-list-technologies-description {
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--second-color);
+        color: var(--second-text-color);
 }
 
 .about {
         font-size: 36px;
         line-height:1.11;
         letter-spacing: 0.02em;
+        text-align: center;
         text-transform: capitalize;
          color: var(--color);
 }
@@ -170,6 +180,7 @@ body {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
         text-transform: capitalize;
         color:var(--color);
         background: #F4F4FD;
@@ -188,7 +199,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--second-text-color);
 }
 
 .team-list-title-tom {
@@ -204,7 +215,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--second-color);
+        color: var(--second-text-color);
 }
 
 .team-list-title-camila {
@@ -220,7 +231,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--second-color);
+        color: var(--second-text-color);
 }
 
 .team-list-title-daniel {
@@ -236,7 +247,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--second-color);
+        color: var(--second-text-color);
 }
 
 
@@ -247,21 +258,22 @@ body {
 }
 
 .footer-logo {
-    font-family: 'raleway';
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--third-text-color);
     text-decoration: none;
     list-style: none;
 }
 
-.footer-logo: is (:hover, :focus) {
-    color #4D5AE5;
+.footer-logo-text {
+   color:#F4F4FD;
 }
+
 
 .footer-text {
     line-height: 1.5;
@@ -270,10 +282,29 @@ body {
     
 }
 
-/*--------------Portfolio header-----------*/
+/*--------------Portfolio Page-----------*/
 
-.accent {
-   color: var(--accent-color);
+portfolio-body {
+    font-family:"Roboto", sans-serif;
+    color: var(--second-text-color) ;
+    background-color: var(--background-color);
+}
+
+
+.portfolio-header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+    text-decoration: none;
+}
+
+.logo-text {
+    var(--color);
 }
 
 .nav-list a {
@@ -401,7 +432,7 @@ body {
 .text-app {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--second-text-color);
 }
 
 .cashless-payment-head {
@@ -416,7 +447,7 @@ body {
 .text-markenting {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--second-text-color);
 }
 
 .meditation-head {
@@ -438,7 +469,7 @@ body {
 .text-marketing {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--second-text-color);
 }
 
 .screen-illustration-head {
@@ -452,7 +483,7 @@ body {
 .text-design {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--second-text-color);
 }
 
 .online-courses-head {
@@ -482,7 +513,7 @@ body {
 .text-web-site {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--second-text-color);
 }
 
 .fresh-coffe-head {
@@ -492,6 +523,24 @@ body {
     letter-spacing: 0.02em;
     color:var(--color);
 }
+
+.portfolio-footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+    text-decoration: none;
+}
+
+.footer-logo-text {
+    color: #F4F4FD;
+}
+
+
 
 
 
