@@ -101,6 +101,9 @@ body {
     background-color: #404BBF;
 }
 /*-------------Main----------------*/
+.credo-title {
+    display: none;
+}
 
 .credo-list-strategy {
         font-weight: 500;
@@ -307,8 +310,8 @@ portfolio-body {
     color: var(--pressed-state-color);
 }
 
-[hidden] {
-    display: visible;
+.portfolio-title {
+    display: none;
 }
 /*-----------------buttons------------*/ 
 
