@@ -1,16 +1,16 @@
 :root {
-   --color: #2E2F42;
-   --second-text-color: #434455;
-   --third-text-color: #4D5AE5;
-   --first-btn-color: #FFFFFF;
-   --second-btn-color: #4D5AE5;
-   --background-color: #FFFFFF;
-   --btn-backgroud-color: #F4F4FD;
-   --pressed-state-color: #404BBF;
-   --footer-text-color: #E7E9FC;
-   --footer-background-color: #2E2F42;
-   --btn-border-color: #E7E9FC;
-   --second-background-color: #F4F4FD;
+    --color: #2E2F42;
+    --second-text-color: #434455;
+    --third-text-color: #4D5AE5;
+    --first-btn-color: #FFFFFF;
+    --second-btn-color: #4D5AE5;
+    --background-color: #FFFFFF;
+    --btn-backgroud-color: #F4F4FD;
+    --pressed-state-color: #404BBF;
+    --footer-text-color: #E7E9FC;
+    --footer-background-color: #2E2F42;
+    --btn-border-color: #E7E9FC;
+    --second-background-color: #F4F4FD;
 }
 
 body {
@@ -57,6 +57,10 @@ body {
 }
 .header-list a:hover, .header-list a:focus {
     color: var(--pressed-state-color);
+}
+
+.address-list {
+    font-style: normal;
 }
 
 .header-mailto {
