@@ -41,7 +41,7 @@ body {
 }
 
 .logo-text {
-   color: var(--color);
+    color: var(--color);
 }
 
 .header-link {
@@ -59,11 +59,8 @@ body {
     color: var(--pressed-state-color);
 }
 
-.address {
+.header-mailto {
     font-style: normal;
-}
-
-.address-list a {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
@@ -71,11 +68,23 @@ body {
     color: var(--second-text-color);
 }
 
-.address-list a:hover, .address-list a:focus {
+.header-mailto a:hover, .header-mailto a:focus {
     color: var(--pressed-state-color);
 }
 
-/*------------Hero----------*/
+.header-tel {
+    font-style: normal;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+
+.header-tel a:hover, .header-tel a:focus {
+    color: var(--pressed-state-color);
+}
+/*--------------------------Hero----------------------*/
 
 .hero {
     background-color: #2e2f42;
@@ -102,144 +111,160 @@ body {
     cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover, .hero-btn:focus {
     background-color: #404BBF;
 }
-/*-------------Main----------------*/
+/*-------------------------Main---------------------------*/
 .credo-title {
     display: none;
 }
 
 .credo-list-strategy {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color);
 }
 
 .credo-list-strategy-desription {
-       line-height: 1.5;
-       letter-spacing: 0.02em;
-       color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
 }
 
 .credo-list-punctuality {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color);
 }
 
 .credo-list-punctuality-description {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
 }
 
 .credo-list-diligence {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color);
 }
 
 .credo-list-diligence-description {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
     }
 
 .credo-list-technologies {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color);
 }
 
 .credo-list-technologies-description {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
 }
 
 .about-title {
     font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
-        color: var(--color);
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color);
 
+}
+
+.team {
+    background: var(--second-background-color);
 }
 
 .team-title {
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
-        color:var(--color);
-        background: var(--second-background-color);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color:var(--color);
+    
 }
 
 .team-list-title-mark {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color);
+    background-color: #FFFFFF;
 }
 
 .team-list-text-mark {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
+    background-color: #FFFFFF;
 }
 
 .team-list-title-tom {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color:var(--color); 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--color);
+    background-color: #FFFFFF;
 }
 
 .team-list-text-tom {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+    background-color: #FFFFFF;
 }
 
 .team-list-title-camila {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color);
+    background-color: #FFFFFF;
 }
 
 .team-list-text-camila {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+    background-color: #FFFFFF;
 }
 
 .team-list-title-daniel {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color);
+    background-color: #FFFFFF;
 }
 
 .team-list-text-daniel {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+    background-color: #FFFFFF;
 }
 
 
@@ -274,7 +299,7 @@ body {
     color:var(--footer-text-color);
 }
 
-/*--------------Portfolio Page-----------*/
+/*---------------------Portfolio Page---------------------*/
 
 portfolio-body {
     font-family:"Roboto", sans-serif;
@@ -333,8 +358,8 @@ portfolio-body {
     color: var(--second-btn-color);
     background-color: var(--btn-backgroud-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-            0px 2px 1px rgba(0, 0, 0, 0.08),
-            0px 2px 2px rgba(0, 0, 0, 0.12);
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     width: 69px;
     height: 48px;
@@ -345,7 +370,6 @@ portfolio-body {
     color:var(--first-btn-color);
     background-color: var(--pressed-state-color);
 }
-
 
 .web-btn {
     font-family: "Roboto", sans-serif;
@@ -409,6 +433,9 @@ portfolio-body {
     }
 
 /*----------portfolio cards----------*/
+.link {
+    text-decoration: none;
+}
 .banking-app-head {
     font-weight: 500;   
     font-size: 20px; 
