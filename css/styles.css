@@ -63,29 +63,20 @@ body {
     font-style: normal;
 }
 
-.header-mailto {
+.address-link {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
+    list-style: none;
+    text-decoration: none;
 }
 
-.header-mailto a:hover, .header-mailto a:focus {
+.address-link a:hover, .address-link a:focus {
     color: var(--pressed-state-color);
 }
 
-.header-tel {
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-}
-
-.header-tel a:hover, .header-tel a:focus {
-    color: var(--pressed-state-color);
-}
 /*--------------------------Hero----------------------*/
 
 .hero {
@@ -121,7 +112,7 @@ body {
     display: none;
 }
 
-.credo-list-strategy {
+.credo-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -129,52 +120,7 @@ body {
     color: var(--color);
 }
 
-.credo-list-strategy-desription {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-}
-
-.credo-list-punctuality {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color);
-}
-
-.credo-list-punctuality-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-}
-
-.credo-list-diligence {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color);
-}
-
-.credo-list-diligence-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-    }
-
-.credo-list-technologies {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color);
-}
-
-.credo-list-technologies-description {
+.credo-list-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -205,7 +151,7 @@ body {
     
 }
 
-.team-list-title-mark {
+.team-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -214,61 +160,12 @@ body {
     background-color: #FFFFFF;
 }
 
-.team-list-text-mark {
+.team-list-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
     background-color: #FFFFFF;
 }
-
-.team-list-title-tom {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--color);
-    background-color: #FFFFFF;
-}
-
-.team-list-text-tom {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-    background-color: #FFFFFF;
-}
-
-.team-list-title-camila {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color);
-    background-color: #FFFFFF;
-}
-
-.team-list-text-camila {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-    background-color: #FFFFFF;
-}
-
-.team-list-title-daniel {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color);
-    background-color: #FFFFFF;
-}
-
-.team-list-text-daniel {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-    background-color: #FFFFFF;
-}
-
 
 /*-------------Footer---------------*/
 
@@ -351,80 +248,60 @@ portfolio-body {
     list-style: none;
 }
 
-.all-btn {
+.btn {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--second-btn-color);
-    background-color: var(--btn-backgroud-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--second-btn-color);
+        background-color: var(--btn-backgroud-color);
+        cursor: pointer;
+}
+/*.all-btn {
+    
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 2px 1px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     width: 69px;
     height: 48px;
-    cursor: pointer;
-}
 
-.all-btn:hover, .all-btn:focus {
+}*/
+
+.btn:hover, .btn:focus {
     color:var(--first-btn-color);
     background-color: var(--pressed-state-color);
 }
 
-.web-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+/*.web-btn {
     color: var(--second-btn-color);
-    background: var(--btn-backgroud-color);
     border: 1px solid var(--btn-border-color);
     width: 116px;
     height: 48px;
     border-radius: 4px;
-    cursor: pointer;
-}
+}*/
 
-.app-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+/*.app-btn {
+    
     color: var(--second-btn-color);
     background: var(--btn-backgroud-color);
     border: 1px solid var(--btn-border-color);
     width: 78px;
     height: 48px;
     border-radius: 4px;
-    cursor: pointer;
 }
 
 .design-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--pressed-state-color);
-    box-sizing: border-box;
+    color: var(--second-btn-color);
     width: 101px;
     height: 48px;
     background: var(--btn-backgroud-color);
     border: 1px solid var(--btn-border-color);
     border-radius: 4px;
-    cursor: pointer;
-    }
+}
 
 .market-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     color: var(--second-btn-color);
     width: 126px;
     height: 48px;
@@ -438,7 +315,7 @@ portfolio-body {
 .link {
     text-decoration: none;
 }
-.banking-app-head {
+.item-title {
     font-weight: 500;   
     font-size: 20px; 
     line-height: 1.2; 
@@ -446,104 +323,11 @@ portfolio-body {
     color:var(--color); 
 }
 
-.text-app {
+.item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
-}
-
-.cashless-payment-head {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color);
-
-}
-
-.text-markenting {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-}
-
-.meditation-head {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color);
-}
-
-.taxi-service-head {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color);
-}
-
-.text-marketing {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-}
-
-.screen-illustration-head {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--color);
-}
-
-.text-design {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-}
-
-.online-courses-head {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color);
-}
-
-.instagram-stories-head {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--color);
-}
-
-.organic-food-head {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--color);
-}
-
-.text-web-site {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-text-color);
-}
-
-.fresh-coffe-head {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--color);
 }
 
 .portfolio-footer-logo {
