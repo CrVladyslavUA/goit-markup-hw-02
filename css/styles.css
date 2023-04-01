@@ -150,7 +150,7 @@ body {
 }
 
 .card-background {
-    background-color: #FFFFFF;
+    background-color:var(--background-color:);
 }
 
 .team-list-title {
@@ -257,6 +257,11 @@ portfolio-body {
         color: var(--second-btn-color);
         background-color: var(--btn-backgroud-color);
         cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+    color: var(--first-btn-color);
+    background-color: var(--pressed-state-color);
 }
 
 /*----------portfolio cards----------*/
