@@ -70,7 +70,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-text-color);
     list-style: none;
-    text-decoration: none;
 }
 
 .address-link a:hover, .address-link a:focus {
@@ -148,7 +147,10 @@ body {
     text-align: center;
     text-transform: capitalize;
     color:var(--color);
-    
+}
+
+.card-background {
+    background-color: #FFFFFF;
 }
 
 .team-list-title {
@@ -157,14 +159,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color);
-    background-color: #FFFFFF;
 }
 
 .team-list-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
-    background-color: #FFFFFF;
 }
 
 /*-------------Footer---------------*/
@@ -215,7 +215,7 @@ portfolio-body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--third-text-color);
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 .logo-text {
@@ -258,58 +258,6 @@ portfolio-body {
         background-color: var(--btn-backgroud-color);
         cursor: pointer;
 }
-/*.all-btn {
-    
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 2px 1px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    width: 69px;
-    height: 48px;
-
-}*/
-
-.btn:hover, .btn:focus {
-    color:var(--first-btn-color);
-    background-color: var(--pressed-state-color);
-}
-
-/*.web-btn {
-    color: var(--second-btn-color);
-    border: 1px solid var(--btn-border-color);
-    width: 116px;
-    height: 48px;
-    border-radius: 4px;
-}*/
-
-/*.app-btn {
-    
-    color: var(--second-btn-color);
-    background: var(--btn-backgroud-color);
-    border: 1px solid var(--btn-border-color);
-    width: 78px;
-    height: 48px;
-    border-radius: 4px;
-}
-
-.design-btn {
-    color: var(--second-btn-color);
-    width: 101px;
-    height: 48px;
-    background: var(--btn-backgroud-color);
-    border: 1px solid var(--btn-border-color);
-    border-radius: 4px;
-}
-
-.market-btn {
-    color: var(--second-btn-color);
-    width: 126px;
-    height: 48px;
-    background: var(--btn-backgroud-color);
-    border: 1px solid var(--btn-border-color);
-    border-radius: 4px;
-    cursor: pointer;
-    }
 
 /*----------portfolio cards----------*/
 .link {
@@ -339,7 +287,6 @@ portfolio-body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--third-text-color);
-    text-decoration: none;
 }
 
 .footer-logo-text {
